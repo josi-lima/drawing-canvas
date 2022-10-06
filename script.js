@@ -21,7 +21,7 @@ let direction = true;
 // Function for the mouse event
 
 function draw(e) {
-  if (!isDrawing) return; // stops the fn from running when moused down
+  if (!isDrawing) return; // stops the fn from running when mouse down
   console.log(e);
 
   ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
@@ -49,6 +49,17 @@ function draw(e) {
     ctx.lineWidth--;
   }
 }
+
+// Adding eventListeners
+
+canvas.addEventListener('mousedown', (e) => {
+  isDrawing = true;
+  [lastX, lastY] = [e.offsetX, e.offsetY];
+});
+
+canvas.addEventListener('mousemove', draw);
+canvas.addEventListener('mouseup', () => isDrawing = false);
+canvas.addEventListener('mouseout', () => isDrawing = false);
 
 
 
