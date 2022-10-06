@@ -12,4 +12,4 @@ On this fun and highly interactive page, the user will be able to use the white 
 
 <strong>[POR]</strong>
 <br>
-Nesta página divertida e altamente interativa, o usuário poderá usar a tela branca para desenhar linhas arredondadas e coloridas, criando formas ou até mesmo escrevendo. Este é o projeto nº 8 de uma série baseada no desafio de programação _[#JavaScript30](https://javascript30.com/)_.
+Nesta página divertida e altamente interativa, o usuário poderá usar a tela branca para desenhar linhas arredondadas e coloridas, criando formas ou até mesmo escrevendo. Este é o projeto #8 de uma série baseada no desafio de programação _[#JavaScript30](https://javascript30.com/)_.
