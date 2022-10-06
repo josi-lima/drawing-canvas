@@ -11,7 +11,7 @@ ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
 ctx.lineWidth = 60;
 
-// Variables for the mouse event as we draw
+// Variables for the mouse / touch event as we draw
 
 let isDrawing = false;
 let lastX = 0;
@@ -19,7 +19,7 @@ let lastY = 0;
 let hue = 0;
 let direction = true;
 
-// Function for the mouse event
+// Function for the mouse / touch event
 
 function draw(e) {
   if (!isDrawing) return; // stops the fn from running when mouse down
