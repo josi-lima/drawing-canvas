@@ -40,7 +40,7 @@ function draw(e) {
 
   // Conditional to change lineWidth
 
-  if (ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
+  if (ctx.lineWidth >= 90 || ctx.lineWidth <= 1) {
     direction = !direction; // flip direction
   }
   if (direction) {
