@@ -50,7 +50,7 @@ function draw(e) {
   }
 }
 
-// Adding eventListeners
+// Adding eventListeners --- desktop only
 
 canvas.addEventListener('mousedown', (e) => {
   isDrawing = true;
@@ -60,6 +60,17 @@ canvas.addEventListener('mousedown', (e) => {
 canvas.addEventListener('mousemove', draw);
 canvas.addEventListener('mouseup', () => isDrawing = false);
 canvas.addEventListener('mouseout', () => isDrawing = false);
+
+// Adding eventListeners --- touch screen only (mobile)
+
+canvas.addEventListener('touchstart', (e) => {
+  isDrawing = true;
+  [lastX, lastY] = [e.offsetX, e.offsetY];
+});
+
+canvas.addEventListener('touchmove', draw);
+canvas.addEventListener('touchcancel', () => isDrawing = false);
+canvas.addEventListener('touchend', () => isDrawing = false);
 
 
 
