@@ -1,6 +1,6 @@
 # Drawing Canvas 🍭
 
-⚡ <strong>[ JavaScript / CSS / HTML ]</strong> --- https://josi-lima.github.io/drawing-canvas/
+⚡ <strong>[ JavaScript / HTML / CSS ]</strong> --- https://josi-lima.github.io/drawing-canvas/
 
 <br>
 
