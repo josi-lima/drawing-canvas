@@ -9,6 +9,7 @@ canvas.height = window.innerHeight;
 ctx.strokeStyle = '#bada55';
 ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
+ctx.lineWidth = 60;
 
 // Variables for the mouse event as we draw
 
@@ -40,7 +41,7 @@ function draw(e) {
 
   // Conditional to change lineWidth
 
-  if (ctx.lineWidth >= 70 || ctx.lineWidth <= 1) {
+  if (ctx.lineWidth >= 60 || ctx.lineWidth <= 2) {
     direction = !direction; // flip direction
   }
   if (direction) {
