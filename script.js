@@ -73,6 +73,12 @@ canvas.addEventListener('touchstart', draw);
 canvas.addEventListener('touchmove', draw);
 canvas.addEventListener('touchend', () => isDrawing = false);
 
+// Clear canvas by clicking on the button
+
+document.getElementById('clear').addEventListener('click', function () {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+}, false);
+
 
 
 
