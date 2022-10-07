@@ -69,6 +69,7 @@ canvas.addEventListener('touchstart', (e) => {
   [lastX, lastY] = [e.offsetX, e.offsetY];
 });
 
+canvas.addEventListener('touchstart', draw);
 canvas.addEventListener('touchmove', draw);
 canvas.addEventListener('touchend', () => isDrawing = false);
 
