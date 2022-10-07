@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  border: 1.5vmax solid #e6df16;
+  border: 1rem solid #e6df16;
   width: 98%;
   height: 100%;
 }
@@ -16,12 +16,12 @@ body {
 /* Button to clear canvas */
 
 #clear {
-  margin: 1vmin 1.5vmin 0;
-  padding: 1vmin 3vmin;
+  margin: .6rem 1rem 0;
+  padding: .5rem 2rem;
   border: none;  
   border-radius: 1.7rem;
   background: linear-gradient(35deg, #ccffff, #ffcccc); 
-  font: 1.3vmax 'Secular One', arial, sans-serif;
+  font: 1.2rem 'Secular One', arial, sans-serif;
   color: #058fdf;
   font-weight: bold;
   letter-spacing: .15rem;
