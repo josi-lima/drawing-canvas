@@ -1,3 +1,7 @@
+/* General Settings */
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 html, body {
   margin: 0;
   overflow: clip;
@@ -7,4 +11,25 @@ body {
   border: 1.5vmax solid #e6df16;
   width: 98%;
   height: 100%;
+}
+
+/* Button to clear canvas */
+
+#clear {
+  margin: 1vmin 1.5vmin 0;
+  padding: 1vmin 3vmin;
+  border: none;  
+  border-radius: 1.7rem;
+  background: linear-gradient(35deg, #ccffff, #ffcccc); 
+  font: 1.3vmax 'Secular One', arial, sans-serif;
+  color: #058fdf;
+  font-weight: bold;
+  letter-spacing: .15rem;
+  text-transform: uppercase;
+  user-select: none;
+  cursor: pointer;
+}
+
+#clear:active {
+  transform: scale(1.15);
 }
