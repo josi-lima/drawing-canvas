@@ -1,0 +1,10 @@
+html, body {
+  margin: 0;
+  overflow: clip;
+}
+
+body {
+  border: 1.5vmax solid #e6df16;
+  width: 97%;
+  height: 100%;
+}
