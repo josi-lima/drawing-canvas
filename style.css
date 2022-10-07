@@ -16,12 +16,12 @@ body {
 /* Button to clear canvas */
 
 #clear {
-  margin: .6rem 1rem 0;
-  padding: .5rem 2rem;
+ margin: .6em 1em 0;
+  padding: .4em 1.9em;
   border: none;  
   border-radius: 1.7rem;
   background: linear-gradient(35deg, #ccffff, #ffcccc); 
-  font: 1.2rem 'Secular One', arial, sans-serif;
+  font: 1.2em 'Secular One', arial, sans-serif;
   color: #058fdf;
   font-weight: bold;
   letter-spacing: .15rem;
